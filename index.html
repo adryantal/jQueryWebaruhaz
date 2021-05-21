@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Antal Adrienn</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--<script src="webaruhaz.js" type="text/javascript"></script>-->
+        <script src="webaruhaz2.js" type="text/javascript"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <main>
+
+            <header>
+                <h1>Webáruház</h1>
+
+            </header>
+
+            <article>
+
+            </article>
+
+            <section>
+                <h2>Új rekord hozzáadása</h2>
+                <form >
+                    <div>
+                        <label for="nev">Név</label>
+                        <input type="text" name="nev" id="nev" required placeholder="pl. Kerti Virág">
+
+                        <label for="db">db</label>
+                        <input type="number" id="darab" name="darab"  required placeholder="pl.15">
+
+                        <label for="cikkszam">Cikkszám</label>
+                        <input type="number" id="cikkszam" name="cikkszam" required placeholder="pl.12345">
+
+                        <label for="ar">Ár (HUF)</label>
+                        <input type="number" name="ar" id="ar" required placeholder="pl.3500">
+
+                        <label for="használt">Használt</label>
+                        <input type="radio" name="hasznalt" id="h_igen" value="true">
+                        <label for="használt">Nem használt</label>
+                        <input type="radio" name="hasznalt" id="h_nem" value="false">
+
+                        <input type="button" id ="kuld" value="Beszúr">
+
+                    </div>
+
+                </form>     
+
+            </section>
+            <!-- 
+            <section>
+                <div>
+                     <label for="cikkszam">Termék cikkszáma:</label>
+                        <input type="number" id="cikkszam_torol" name="cikkszam_torol" required placeholder="pl.12345">
+                    <input type="button" id ="torol" value="Töröl">
+
+                </div>
+            </section>
+             -->
+            <footer>
+
+                Készítette: Antal Adrienn
+            </footer>
+
+        </main>
+
+
+
+    </body>
+</html>

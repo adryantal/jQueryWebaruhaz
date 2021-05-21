@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body{
+    background: beige;
+    font-family: "Calibri",courier;
+}
+*{
+    box-sizing: border-box;
+}
+
+main, header, footer, article, header, section 
+{border:1px solid gray;
+padding:5px
+}
+
+main {
+    
+    max-width: 800px;
+    margin: auto;
+    background: lightpink;
+    border-radius: 5px;
+}
+    
+table {
+    border-collapse: collapse;
+    width: 100%;
+  
+}
+
+table, td, th {
+    border: 1px solid grey;
+    
+}
+
+
+th {
+    background: lavenderblush;
+    border-bottom: 1.5px solid black;
+}
+
+
+tr:nth-child(even){
+    background: bisque;
+}
+    
+tr:nth-child(odd){
+    background: beige; 
+} 
+
+td:nth-child(6){    
+ 
+text-align: center;
+   
+}
+
+th{
+    width: calc(100%/7);
+}
+
+
+.kiemel{
+   background: lightskyblue;
+   cursor: grab;
+}
+
+form div{
+    display:grid;
+    grid-template-columns: 100px auto;
+   
+}
+
+label{
+    text-align: right;
+     padding-right: 10px;
+   
+}
+label, input[type=text], input[type=number], input[type=button]{
+    margin: 3px;
+}
+
+input[type=radio]{    
+    align-self: center;
+   
+}
+
+header, footer{
+    
+    text-align: center;
+}
+
+header{
+    font-weight: bold;
+    font-size: 150%;
+}
+
+input[type=button]{    
+    width: 80px;
+   
+}

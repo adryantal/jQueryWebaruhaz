@@ -1,0 +1,31 @@
+[
+    {
+        "Név": "Mosógép",
+        "db": "1",
+        "Cikkszám": "101" ,
+        "Ár": "80000" ,
+        "Használt":"igen"
+    },
+    {
+       "Név": "Kávéfőző",
+        "db": "2",
+        "Cikkszám": "201",
+        "Ár": "30000",
+        "Használt":"nem"
+    },
+    {
+       "Név": "Takarítórobot" ,
+        "db": "1",
+        "Cikkszám": "105",
+        "Ár": "50000",
+        "Használt": "igen"
+    },
+    {
+       "Név": "Hűtőszekrény",
+        "db": "3",
+        "Cikkszám": "109",
+        "Ár": "89000",
+        "Használt": "nem"
+    }
+
+]
